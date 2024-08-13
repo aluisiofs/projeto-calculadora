@@ -20,5 +20,5 @@ function gerarResultado(event) {
     const resultado = soma(numero1, numero2)
     txtResultado.innerText = `Resultado: ${resultado}`
     
-    // alert(resultado)
+    alert(resultado)
 }
