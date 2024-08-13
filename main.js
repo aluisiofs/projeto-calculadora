@@ -10,7 +10,7 @@ function soma(numero1, numero2) {
     const resultado = numero1 + numero2
     return resultado
 }
-
+//Exercicio 5
 function gerarResultado(event) {
     event.preventDefault() // bloqueia a ação do form
     console.log('gerarResultado')
