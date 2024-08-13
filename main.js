@@ -17,8 +17,9 @@ function gerarResultado(event) {
     const numero1 = parseInt(inputNumero1.value)
     const numero2 = parseInt(inputNumero2.value)
 
+//Exercicio 07
     const resultado = soma(numero1, numero2)
-    txtResultado.innerText = `Resultado: ${resultado}`
-    
+    txtResultado.innerText = `Resultado: ${resultado}` // Exercicio 8
+// Exercicio 07     
     alert(resultado)
 }
