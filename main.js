@@ -13,7 +13,7 @@ function soma(numero1, numero2) {
 
 function gerarResultado(event) {
     event.preventDefault() // bloqueia a ação do form
-    console.log('gerarResultado')    
+    console.log('gerarResultado')
     const num1 = parseInt(inputNumero1.value)
     const num2 = parseInt(inputNumero2.value)
 
