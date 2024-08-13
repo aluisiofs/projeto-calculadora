@@ -10,12 +10,12 @@ function soma(numero1, numero2) {
     const resultado = numero1 + numero2
     return resultado
 }
-//Exercicio 5
+// Exercicio 5
 function gerarResultado(event) {
     event.preventDefault() // bloqueia a ação do form
     console.log('gerarResultado')
-    const num1 = parseInt(inputNumero1.value)
-    const num2 = parseInt(inputNumero2.value)
+    const numero1 = parseInt(inputNumero1.value)
+    const numero2 = parseInt(inputNumero2.value)
 
     const resultado = soma(numero1, numero2)
     txtResultado.innerText = `Resultado: ${resultado}`
